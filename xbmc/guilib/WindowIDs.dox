@@ -118,7 +118,7 @@ This page shows the window names, the window definition, the window ID and the s
 | games                   | WINDOW_GAMES                         | 10821     | MyGames.xml                         |
 | gameosd                 | WINDOW_DIALOG_GAME_OSD               | 10822     | GameOSD.xml                         |
 | gamevideofilter         | WINDOW_DIALOG_GAME_VIDEO_FILTER      | 10823     | DialogSettings.xml                  |
-| gameviewmode            | WINDOW_DIALOG_GAME_STRETCH_MODE      | 10824     | DialogSelect.xml                    |
+| gamestretchmode         | WINDOW_DIALOG_GAME_STRETCH_MODE      | 10824     | DialogSelect.xml                    |
 | gamevolume              | WINDOW_DIALOG_GAME_VOLUME            | 10825     | DialogVolumeBar.xml                 |
 | gameadvancedsettings    | WINDOW_DIALOG_GAME_ADVANCED_SETTINGS | 10826     | DialogAddonSettings.xml             |
 | gamevideorotation       | WINDOW_DIALOG_GAME_VIDEO_ROTATION    | 10827     | DialogSelect.xml                    |
