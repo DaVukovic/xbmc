@@ -24,6 +24,7 @@
 #include "GUIUserMessages.h"
 #include "music/MusicDatabase.h"
 #include "settings/AdvancedSettings.h"
+#include "settings/lib/Setting.h"
 #include "settings/Settings.h"
 #include "settings/SettingsComponent.h"
 #include "cores/VideoSettings.h"
