@@ -419,9 +419,17 @@
 				</item>
 				<item>
 					<label>5</label>
+					<visible>!String.Contains(VideoPlayer.Title,Matrix)</visible>
 					<onclick condition="String.IsEmpty(Window(Home).Property(PopupMenuVisible))">SetProperty(PopupMenuVisible,Show,Home)</onclick>
 					<onclick condition="!String.IsEmpty(Window(Home).Property(PopupMenuVisible))">ClearProperty(PopupMenuVisible,Home)</onclick>
 					<icon>icon_button_settings.png</icon>
+				</item>
+				<item>
+					<label>5</label>
+					<visible>String.Contains(VideoPlayer.Title,Matrix)</visible>
+					<onclick condition="String.IsEmpty(Window(Home).Property(PopupMenuVisible))">SetProperty(PopupMenuVisible,Show,Home)</onclick>
+					<onclick condition="!String.IsEmpty(Window(Home).Property(PopupMenuVisible))">ClearProperty(PopupMenuVisible,Home)</onclick>
+					<icon>rabbit_white.png</icon>
 				</item>
 			</content>
 		</control>

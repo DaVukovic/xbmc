@@ -213,8 +213,11 @@
 						<onclick>ActivateWindow(1101)</onclick>
 					</control>
 					<control type="radiobutton" id="70048">
-						<include content="OSDButton">
+						<include condition="!String.Contains(VideoPlayer.Title,Matrix)" content="OSDButton">
 							<param name="texture" value="osd/fullscreen/buttons/settings.png"/>
+						</include>
+						<include condition="String.Contains(VideoPlayer.Title,Matrix)" content="OSDButton-easteregg">
+							<param name="texture" condition="String.IsEqual(VideoPlayer.Title,Matrix)" value="osd/fullscreen/buttons/rabbit_white.png"/>
 						</include>
 						<onclick>SetProperty(settingslist_content,osd,home)</onclick>
 						<onclick>SetProperty(settingslist_header,$LOCALIZE[5],home)</onclick>
